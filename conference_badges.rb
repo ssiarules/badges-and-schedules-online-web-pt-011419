@@ -15,11 +15,13 @@ end
 end
 
 def printer(attendees)
- result one = batch_badge_creator (attendees)
- resu.each do |id| 
+ resultOne = batch_badge_creator (attendees)
+ resultOne.each do |id| 
   puts id
 end 
-assign_rooms(attendees).each do |room| puts room
+resultTwo = assign_rooms(attendees)
+resultTwo.each do |room| 
+  puts room
 end 
  end 
 
