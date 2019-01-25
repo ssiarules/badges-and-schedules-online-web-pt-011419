@@ -16,7 +16,8 @@ end
 
 def printer(attendees)
   badges_and_room_assignments.each_line do |id, room|
-    puts id + room 
+    puts id 
+    puts room 
 end
 end
 
