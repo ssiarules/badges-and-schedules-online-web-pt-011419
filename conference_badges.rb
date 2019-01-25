@@ -26,8 +26,6 @@ def printer(attendees)
 end
   
 
-
-
 #def printer(attendees)
  #resultOne = batch_badge_creator (attendees)
  #resultOne.each do |id| 
