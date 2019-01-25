@@ -15,15 +15,12 @@ end
 end
 
 def printer(attendees)
-  badges_and_room_assignments.each do |id, room|
-    puts id 
-    puts room 
-end
-end
+ batch_badge_creator (attendees).each do |id| 
+  puts id
+assign_rooms(attendees).each do |room| puts room
+end 
+ end
+  end 
 
-#batch_badge_creator (attendees).each do |id| 
-  #puts id
-#end
-#assign_rooms(attendees).each do |room| puts room
-#end 
+
   
